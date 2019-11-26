@@ -22,7 +22,7 @@ export class StockItemsController {
     try {
       return await this.service.listStockItems();
     } catch (err) {
-      throw new BadGateway("There was an error");
+      throw new BadGateway("There was an error: " + JSON.stringify(err));
     }
   }
 }
