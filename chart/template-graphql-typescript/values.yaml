@@ -3,7 +3,7 @@
 # Declare variables to be passed into your templates.
 global: {}
 
-serviceUrl: "inventory-management-service-tdc:80"
+serviceUrl: "inventory-management-svc-tdc:80"
 
 replicaCount: 1
 logLevel: "debug"
